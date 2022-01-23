@@ -1,0 +1,26 @@
+*.swp
+package-lock.json
+.pytest_cache
+.env
+.venv
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+.DS_Store
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
